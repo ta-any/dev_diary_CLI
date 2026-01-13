@@ -9,6 +9,7 @@ from cli.commands.add import Add
 def add_entry(text: str, duration: int = None, commit: str = None) -> DevDiaryEntry: 
     T = Add(text, duration, commit)
     task = T.create_entry()
+    T.save_entry([task])
 
     print(20 * "===")
     print("Task")
