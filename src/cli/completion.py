@@ -1,0 +1,1 @@
+# Поддержка автодополнения в bash/zsh/fish через click.shell_completion
